@@ -1,0 +1,155 @@
+.footer {
+  padding: 4rem 0 3.3rem 0;
+  background-color: #f3f3f3;
+}
+.footer-element {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding-bottom: 4.7rem;
+  border-bottom: 1px solid gray;
+  gap: 5rem;
+}
+.title-footer {
+  font-size: 2.2rem;
+  color: #101110;
+  font-weight: 700;
+  margin: 0 0 1.6rem 0;
+}
+.foot-sell-element {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #484a47;
+  margin: 0 0 8px 0;
+}
+/*2*/
+.footer-connect-component {
+  margin-bottom: 6px;
+}
+.foot-connect-element {
+  display: flex;
+  align-items: center;
+  height: 25px;
+}
+
+.footer-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 6px;
+}
+.foot-icon-text {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #484a47;
+}
+/*3*/
+.card-top img {
+  margin-bottom: 6px;
+}
+.card-payment {
+  width: 35px;
+  height: 25px;
+  object-fit: cover;
+  padding: 5px;
+  border: 1px solid gray;
+  margin-right: 6px;
+}
+/*4*/
+.footer-last-element {
+  padding: 4.5rem 0 0 0;
+}
+.logo-language-app {
+  display: flex;
+  align-items: center;
+  /*justify-content: center;*/
+  position: relative;
+}
+.input-language {
+  margin: 0 4.8rem 0 2.4rem;
+}
+.input-language select {
+  width: 100%;
+  border-radius: 3px;
+  margin: 0;
+  padding: 1.2rem 4.8rem;
+  outline: 0;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #484a47;
+  position: relative;
+}
+.footer-icon-language {
+  width: 48px;
+  height: 43px;
+  position: absolute;
+  z-index: 3;
+  bottom: 2px;
+  left: 118px;
+  /* overflow: hidden; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon-language {
+  width: 22px;
+}
+.input-language label {
+  position: absolute;
+  top: -5px;
+  left: 133px;
+  background-color: white;
+  color: #484a47;
+  z-index: 1;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 0 5px;
+}
+.download {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #484a47;
+}
+.copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  color: black;
+  padding-top: 6rem;
+}
+@media (max-width: 720px) {
+  .footer-icon-language {
+    left: 105px;
+  }
+  .input-language select {
+    padding: 1.2rem 3rem;
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 688px) {
+  .download {
+    font-size: 1.5rem;
+  }
+  .input-language label {
+    left: 120px;
+  }
+  .title-footer {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 672px) {
+  .footer-element {
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+  }
+  .footer-connect-component {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .logo-language-app {
+    justify-content: space-around;
+  }
+  .input-language {
+    display: none;
+  }
+}

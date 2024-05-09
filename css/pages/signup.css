@@ -1,0 +1,68 @@
+.logo2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo-signup {
+  width: 20%;
+  padding-top: 2.4rem;
+  padding-bottom: 6rem;
+}
+.create-acc {
+  max-width: 600px;
+}
+.check-box {
+  margin: 3.6rem 0 2.4rem 0;
+}
+
+.have-acc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2.4rem 0;
+}
+.acc-sign-in {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #0a1401;
+}
+.acc-sign-in a {
+  text-decoration: none;
+  color: #8ac732;
+}
+
+.chat {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 10;
+  cursor: pointer;
+  width: 101px;
+  border: transparent;
+  padding: 1.4rem 0 1.4rem 2rem;
+  border-radius: 30px;
+  background-color: #8ac732;
+  color: white;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.icon-chat {
+  width: 20px;
+  height: 20px;
+}
+@media (max-width: 528px) {
+  .input-box input {
+    font-size: 1.4rem;
+  }
+  .create-acc {
+    padding: 2.6rem;
+  }
+  .title-acc-info {
+    font-size: 2rem;
+  }
+  .text-acc-info {
+    font-size: 1.3rem;
+  }
+}

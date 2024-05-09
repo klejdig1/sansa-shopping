@@ -1,0 +1,272 @@
+.section-seller {
+}
+.categories-search {
+  justify-content: start;
+  margin-top: 24px;
+}
+.icon-back {
+  font-size: 28px;
+  color: black;
+  margin-right: 9px;
+}
+.product-categorise {
+  /*text-decoration: none;*/
+  font-weight: 600;
+}
+.back {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+/**/
+.info-product-details {
+  padding: 0 15px;
+}
+.green {
+  background-color: #8ac732;
+}
+.details {
+  display: grid;
+  grid-template-columns: 1fr 0.6fr;
+}
+.product-show-click,
+.show-all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.show-product {
+  height: 300px;
+  width: 300px;
+  margin-top: 9rem;
+}
+.product-show-click {
+  gap: 3.5rem;
+  margin-top: 6.9rem;
+}
+.show-click {
+  /*margin-top: 6.9rem;*/
+  width: 76px;
+  object-fit: cover;
+  padding: 8px;
+  border: 1px solid #e1e4d5;
+  border-radius: 6px;
+}
+/**/
+.info-shirt-title {
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: #101110;
+  margin: 0;
+  line-height: 1.4;
+}
+.info-shirt-text {
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: #484a47;
+}
+/**/
+.rating-star {
+  display: flex;
+  justify-content: normal;
+  align-items: center;
+  column-gap: 8px;
+}
+
+.star-reviews label {
+  color: #eecf2d;
+}
+
+.star-reviews input {
+  display: none;
+}
+.star-reviews input + label {
+  cursor: pointer;
+  font-size: 2.4rem;
+}
+.star-reviews input:checked + label ~ label {
+  color: gray;
+}
+
+.star-reviews label:active {
+  transition: 0.1ms all;
+}
+
+/**/
+.star-reviews {
+  display: flex;
+  align-items: center;
+}
+.star-text {
+  margin: 0;
+  font-size: 1.6rem;
+}
+.reviews {
+  font-size: 1.4rem;
+  margin: 0 0 0 1.6rem;
+}
+.cost-product {
+  font-size: 3.6rem;
+  margin: 3.2rem 0 2.8rem 0;
+}
+
+.product-option-headline {
+}
+
+.product-options-all {
+  padding: 10px;
+  border: 1px solid #e1e4d5;
+  border-radius: 15px;
+}
+
+.product-option {
+  display: flex;
+  align-items: center;
+}
+
+.product-option-label {
+  padding-right: 8px;
+}
+
+.product-option-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.radio-wrapper {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.radio-wrapper input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.radio-wrapper .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  /*background-color: white;*/
+  border-radius: 50%;
+  border: 1px solid #e1e4d5;
+}
+.radio-wrapper:hover input ~ .checkmark {
+  /*background-color: #ccc;*/
+}
+
+.radio-wrapper input:checked ~ .checkmark {
+  /*background-color: #2196f3;*/
+}
+
+.radio-wrapper .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.radio-wrapper input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.radio-wrapper .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.product-option-wrapper select {
+  background-color: #e5e5e5;
+  padding: 4px 0px 4px 13px;
+  font-size: 1.6rem;
+  color: #000000;
+  border-radius: 4px;
+  border: transparent;
+}
+
+/**/
+.option-qty {
+  display: flex;
+  align-items: center;
+  margin-top: 2.8rem;
+}
+.option-operator {
+  border-radius: 50%;
+  background-color: #e5e5e5;
+  border: transparent;
+  color: #000000;
+  font-size: 1.2rem;
+}
+.option-number {
+  margin: 0 1.2rem;
+  font-size: 1.6rem;
+  color: #000000;
+}
+.option-element-number {
+  display: flex;
+}
+.option-operator img {
+  display: flex;
+}
+.option-operator1 {
+  height: 2px;
+  width: 9px;
+}
+.option-operator2 {
+  height: 9px;
+  width: 8px;
+}
+
+.button-card-favorites {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.6rem;
+  margin: 4rem 0;
+}
+
+.add-to-cart-cta {
+  flex-grow: 1;
+}
+/**/
+.id-share {
+  display: flex;
+  align-items: center;
+  gap: 3.6rem;
+}
+.detail-id {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #6a6c68;
+}
+.details-share {
+  display: flex;
+  align-items: center;
+  border: 1px solid #75796c;
+  padding: 11px;
+  border-radius: 50%;
+}
+.icon-share {
+  font-size: 18px;
+  color: #354052;
+  font-weight: 700;
+}

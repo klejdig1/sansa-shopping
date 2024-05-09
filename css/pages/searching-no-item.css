@@ -1,0 +1,22 @@
+.search-product {
+  margin-top: 9rem;
+}
+.icon-search-product {
+  width: 20%;
+}
+.title-search-product,
+.text-search-product {
+  text-align: center;
+}
+.title-search-product {
+  margin: 2.4rem 0 8px 0;
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #101110;
+}
+.text-search-product {
+  margin: 0;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #484a47;
+}

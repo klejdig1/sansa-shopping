@@ -1,0 +1,685 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Searching-item</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&family=Rubik:ital,wght@0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/pages/home.css" />
+    <link rel="stylesheet" href="css/pages/product-page.css" />
+    <link rel="stylesheet" href="css/pages/searching-item.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header_wrapper container">
+        <div class="logo">
+          <img class="logo-img" src="img/Logo.png" alt="" srcset="" />
+        </div>
+
+        <nav class="main-nav">
+          <ul class="main-nav-list">
+            <li>
+              <a class="main-nav-link" href="./index.html"
+                ><span class="">Home</span></a
+              >
+            </li>
+            <li>
+              <a class="main-nav-link" href="#"
+                ><span class="">Product</span></a
+              >
+            </li>
+            <li><a class="main-nav-link" href="#">Blog</a></li>
+            <li><a class="main-nav-link" href="#">About Us</a></li>
+            <li><a class="main-nav-link" href="#">Contact Us</a></li>
+          </ul>
+        </nav>
+
+        <div class="btn-icon">
+          <div class="nav-icon icon-number">
+            <a href="#">
+              <ion-icon class="icon-header" name="search-outline"></ion-icon
+            ></a>
+            <a href="#">
+              <ion-icon class="icon-header" name="heart-outline"></ion-icon
+            ></a>
+            <a href="#" class="nav-icon_cart">
+              <span id="cart_count">3</span>
+              <ion-icon class="icon-header" name="cart-outline"></ion-icon>
+            </a>
+            <a href="signin.html"
+              ><ion-icon
+                class="icon-header"
+                name="person-circle-outline"
+              ></ion-icon
+            ></a>
+          </div>
+          <button class="btn-mobile-nav">
+            <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+            <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="grid-seller-filters">
+        <section class="filters">
+          <div class="filters-box">
+            <div class="title-filters">Filters</div>
+            <div class="filters-icon">
+              <a href=""><i class="fa-solid fa-angles-left filters-left-icon"></i></a>
+            </div>
+
+            <div class="filters-items">
+              <div class="filters-item size">
+                <div class="icon-text">
+                  <ion-icon
+                    class="icon-filters"
+                    name="square-outline"
+                  ></ion-icon>
+                  <p class="text-filters">Color</p>
+                </div>
+                <a href="">
+                  <ion-icon
+                    class="icon-up-filters"
+                    name="chevron-up-outline"
+                  ></ion-icon
+                ></a>
+              </div>
+              <div class="filters-item size-cub">
+                <div class="cub"><a href=""> M</a></div>
+                <div class="cub"><a href="">L</a></div>
+                <div class="cub"><a href="">XL</a></div>
+              </div>
+              <div class="filters-item color">
+                <div class="icon-text">
+                  <ion-icon
+                    class="icon-filters"
+                    name="color-palette-outline"
+                  ></ion-icon>
+                  <p class="text-filters">Color</p>
+                </div>
+                <a href="">
+                  <ion-icon
+                    class="icon-up-filters"
+                    name="chevron-up-outline"
+                  ></ion-icon
+                ></a>
+              </div>
+              <div class="filters-item color-cub">
+                <div class="all-cubs">
+                  <a class="cub-o" id="cub-orange" href=""></a>
+                  <a class="cub-o" id="cub-green" href=""></a>
+                  <a class="cub-o" id="cub-red" href=""></a>
+                  <a class="cub-o" id="cub-white" href=""></a>
+                  <a class="cub-o" id="cub-black" href=""></a>
+                </div>
+              </div>
+              <div class="filters-item color">
+                <div class="icon-text">
+                  <i class="fa-regular fa-dollar-sign icon-filters"></i>
+                  <p class="text-filters">Price Range</p>
+                </div>
+                <a href="">
+                  <ion-icon
+                    class="icon-up-filters"
+                    name="chevron-up-outline"
+                  ></ion-icon
+                ></a>
+              </div>
+              <div class="filters-item price-range">
+                <div class="min-max">
+                  <p class="min-max-text">Min</p>
+                  <input class="min-max-number" placeholder="5"></input>
+                  <p class="min-max-text">USD</p>
+                </div>
+                <div class="min-max-color-all">
+                  <div class="min-max-color"></div>
+                  <div class="min-max-color"></div>
+                </div>
+                <div class="min-max">
+                  <p class="min-max-text">Max</p>
+                  <input class="min-max-number" placeholder="100"></input>
+                  <p class="min-max-text">USD</p>
+                </div>
+              </div>
+              <div class="filters-item color">
+                <div class="icon-text">
+                  <ion-icon
+                    class="icon-filters"
+                    name="settings-outline"
+                  ></ion-icon>
+                  <p class="text-filters">Material</p>
+                </div>
+                <a href="">
+                  <ion-icon
+                    class="icon-up-filters"
+                    name="chevron-up-outline"
+                  ></ion-icon
+                ></a>
+              </div>
+              <div class="filters-item material">
+                <div class="cotton-slick">
+                  <a href="#" class="all-material">cotton</a>
+                  <a href="#" class="all-material">silk</a>
+
+                </div>
+                <div class="cotton-slick">
+                <a href="#" class="all-material mid">polyester</a>
+                </div>
+              </div>
+              <div class="filters-item color">
+                <div class="icon-text">
+                  <ion-icon class="icon-filters" name="star"></ion-icon>
+                  <p class="text-filters">Rating</p>
+                </div>
+                <a href="">
+                  <ion-icon
+                    class="icon-up-filters"
+                    name="chevron-up-outline"
+                  ></ion-icon
+                ></a>
+              </div>
+              <div class="filters-item rating">
+                <div class="gap-star">
+                  <div class="rating-star">
+                    <input type="radio" name="rating1" id="rating1">
+                    <label for="rating1" class="fa fa-star"></label>
+                    <input type="radio" name="rating1" id="rating2">
+                    <label for="rating2" class="fa fa-star"></label>
+                    <input type="radio" name="rating1" id="rating3">
+                    <label for="rating3" class="fa fa-star"></label>
+                    <input type="radio" name="rating1" id="rating4">
+                    <label for="rating4" class="fa fa-star"></label>
+                    <input type="radio" name="rating1" id="rating5">
+                    <label for="rating5" class="fa fa-star"></label>
+                  </div>
+
+                  <div class="rating-star">
+                  <input type="radio" name="rating6" id="rating6">
+                  <label for="rating6" class="fa fa-star"></label>
+                  <input type="radio" name="rating7" id="rating7">
+                  <label for="rating7" class="fa fa-star"></label>
+                  <input type="radio" name="rating8" id="rating8">
+                  <label for="rating8" class="fa fa-star"></label>
+                  <input type="radio" name="rating9" id="rating9">
+                  <label for="rating9" class="fa fa-star"></label>
+                  <input type="radio" name="rating10" id="rating10">
+                  <label for="rating10" class="fa fa-star "></label>
+                </div>
+                <div class="rating-star">
+                  <input type="radio" name="rating11" id="rating11">
+                  <label for="rating11" class="fa fa-star"></label>
+                  <input type="radio" name="rating12" id="rating12">
+                  <label for="rating12" class="fa fa-star"></label>
+                  <input type="radio" name="rating13" id="rating13">
+                  <label for="rating13" class="fa fa-star"></label>
+                  <input type="radio" name="rating14" id="rating15">
+                  <label for="rating15" class="fa fa-star"></label>
+                  <input type="radio" name="rating16" id="rating16">
+                  <label for="rating16" class="fa fa-star "></label>
+                </div>
+                <div class="rating-star">
+                  <input type="radio" name="rating17" id="rating17">
+                  <label for="rating17" class="fa fa-star"></label>
+                  <input type="radio" name="rating18" id="rating18">
+                  <label for="rating18" class="fa fa-star"></label>
+                  <input type="radio" name="rating19" id="rating19">
+                  <label for="rating19" class="fa fa-star"></label>
+                  <input type="radio" name="rating20" id="rating20">
+                  <label for="rating20" class="fa fa-star"></label>
+                  <input type="radio" name="rating21" id="rating21">
+                  <label for="rating21" class="fa fa-star "></label>
+                </div>
+                <div class="rating-star">
+                  <input type="radio" name="rating22" id="rating22">
+                  <label for="rating22" class="fa fa-star"></label>
+                  <input type="radio" name="rating23" id="rating23">
+                  <label for="rating23" class="fa fa-star"></label>
+                  <input type="radio" name="rating24" id="rating24">
+                  <label for="rating24" class="fa fa-star"></label>
+                  <input type="radio" name="rating25" id="rating25">
+                  <label for="rating25" class="fa fa-star"></label>
+                  <input type="radio" name="rating26" id="rating26">
+                  <label for="rating26" class="fa fa-star "></label>
+                </div>
+                </div>
+                </div>
+              <div class="filters-item color">
+                <div class="icon-text">
+                  <ion-icon class="icon-filters" name="star"></ion-icon>
+                  <p class="text-filters">Brand</p>
+                </div>
+                <a href="">
+                  <ion-icon
+                    class="icon-up-filters"
+                    name="chevron-up-outline"
+                  ></ion-icon
+                ></a>
+              </div>
+              <div class="filters-item material">
+                <div class="cotton-slick">
+                  <a href="#" class="all-material">Gucci</a>
+                  <a href="#" class="all-material">Prada</a>
+                  <a href="#" class="all-material">Nike</a>
+
+                </div>
+                <div class="cotton-slick">
+                  <a href="#" class="all-material mid">Chanel</a>
+                  <a href="#" class="all-material mid">Adidas</a>
+                </div>
+                <div class="cotton-slick">
+                  <a href="#" class="all-material mid">Diesel</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section-seller">
+          <div class="container">
+            <div class="find">
+              <a class="find-home" href="./index.html"><p>Home/</p></a>
+              <a class="find-product" href="#"> <p>Search</p></a>
+            </div>
+            <div class="categories-search">
+              <h2 class="product-categorise">Shirt (2005 results)</h2>
+
+              <div class="input-search">
+                <label for="search">Search </label>
+                <div class="input-box__input">
+                  <ion-icon class="icon" name="search-outline"></ion-icon>                  <input
+                    id="search"
+                    type="search"
+                    name="search"
+                    required
+                    placeholder="shirt"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="section-seller-nav">
+              <ul class="section-seller-list">
+                <li>
+                  <a class="section-seller-link" href="./product-page.html"
+                    >Cloth</a
+                  >
+                </li>
+                <li><a class="section-seller-link" href="#">Shoes</a></li>
+                <li><a class="section-seller-link" href="#">Hats</a></li>
+                <li><a class="section-seller-link" href="#">Skincare</a></li>
+                <li>
+                  <a class="section-seller-link" href="#">Electronic </a>
+                </li>
+                <li>
+                  <a class="section-seller-link" href="#">Arts </a>
+                </li>
+                <li>
+                  <a class="section-seller-link" href="#">Book </a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="section-headline">
+              <h2 class="section-headline_heading">Show results for shirts</h2>
+              <div class="select-joice">
+                <label class="zgjedhja-label" for="zgjedhja">Sort</label>
+                <select class="select-zgjedhja" id="zgjedhja" name="zgjedhja">
+                  <option value="opsion1">Most relevant</option>
+                  <option value="opsion2">Opsioni 1</option>
+                  <option value="opsion3">Opsioni 2</option>
+                </select>
+              </div>
+            </div>
+            <div class="colum-gap">
+              <div class="all-product-item">
+                <div class="product-item">
+                  <div class="product-img-icon">
+                    <a class="cart-heart" href=""
+                      ><ion-icon name="heart-outline"></ion-icon
+                    ></a>
+                    <img
+                      class="img-product"
+                      src="img/Front%20view%20of%20smiley%20woman%20pointing%20to%20herself.png"
+                      alt=""
+                      srcset=""
+                    />
+                  </div>
+                  <div class="product-text">
+                    <h2 class="title-product">
+                      Front view of smiley woman pointing to herself
+                    </h2>
+                    <p class="description-product">Description</p>
+                    <div class="all-price">
+                      <div class="cost-product">8.00 USD</div>
+                      <a class="btn-add" href="#">+</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-item">
+                  <div class="product-img-icon">
+                    <a class="cart-heart" href=""
+                      ><ion-icon name="heart-outline"></ion-icon
+                    ></a>
+                    <img
+                      class="img-product"
+                      src="img/Graphic%20tshirt%20trendy%20design%20mockup%20presented%20on%20wooden%20hanger.png"
+                      alt=""
+                      srcset=""
+                    />
+                  </div>
+                  <div class="product-text">
+                    <h2 class="title-product">
+                      Graphic t-shirt trendy design mockup presented on wooden
+                      hanger
+                    </h2>
+                    <p class="description-product">Description</p>
+                    <div class="all-price">
+                      <div class="cost-product">18.00 USD</div>
+                      <a class="btn-add" href="#">+</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-item">
+                  <div class="product-img-icon">
+                    <a class="cart-heart" href=""
+                      ><ion-icon name="heart-outline"></ion-icon
+                    ></a>
+                    <img
+                      class="img-product"
+                      src="img/Shirt%20mockup%20concept%20with%20plain%20clothing.png"
+                      alt=""
+                      srcset=""
+                    />
+                  </div>
+                  <div class="product-text">
+                    <h2 class="title-product">
+                      Shirt mockup concept with plain clothing
+                    </h2>
+                    <p class="description-product">Description</p>
+                    <div class="all-price">
+                      <div class="cost-product">9.50 USD</div>
+                      <a class="btn-add" href="#">+</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="all-product-item">
+                <div class="product-item">
+                  <div class="product-img-icon">
+                    <a class="cart-heart" href=""
+                      ><ion-icon name="heart-outline"></ion-icon
+                    ></a>
+                    <img
+                      class="img-product"
+                      src="img/Graphic%20shirt%20trendy%20design%20mockup.png"
+                      alt=""
+                      srcset=""
+                    />
+                  </div>
+                  <div class="produ+ct-text">
+                    <h2 class="title-product">Warning shirt</h2>
+                    <p class="description-product">New style for men</p>
+                    <div class="all-price">
+                      <div class="cost-product">8.00 USD</div>
+                      <a class="btn-add" href="#">+</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-item">
+                  <div class="product-img-icon">
+                    <a class="cart-heart" href=""
+                      ><ion-icon name="heart-outline"></ion-icon
+                    ></a>
+                    <img
+                      class="img-product"
+                      src="img/unsplash__-ynZTGWz-M.png"
+                      alt=""
+                      srcset=""
+                    />
+                  </div>
+                  <div class="product-text">
+                    <h2 class="title-product">LEVI'S</h2>
+                    <p class="description-product">Lovely style</p>
+                    <div class="all-price">
+                      <div class="cost-product">18.20 USD</div>
+                      <a class="btn-add" href="#">+</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-item">
+                  <div class="product-img-icon">
+                    <a class="cart-heart" href=""
+                      ><ion-icon name="heart-outline"></ion-icon
+                    ></a>
+                    <img
+                      class="img-product"
+                      src="img/unsplash_gEupiRvyxh0.png"
+                      alt=""
+                      srcset=""
+                    />
+                  </div>
+                  <div class="product-text">
+                    <h2 class="title-product">NBA shirt</h2>
+                    <p class="description-product">Description</p>
+                    <div class="all-price">
+                      <div class="cost-product">9.50 USD</div>
+                      <a class="btn-add" href="#">+</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="all-product-item">
+                <div class="product-item">
+                  <div class="product-img-icon">
+                    <a class="cart-heart" href=""
+                      ><ion-icon name="heart-outline"></ion-icon
+                    ></a>
+                    <img
+                      class="img-product"
+                      src="img/unsplash_fbwPvGN6U1Y.png"
+                      alt=""
+                      srcset=""
+                    />
+                  </div>
+                  <div class="product-text">
+                    <h2 class="title-product">
+                      Front view of smiley woman pointing to herself
+                    </h2>
+                    <p class="description-product">Description</p>
+                    <div class="all-price">
+                      <div class="cost-product">8.00 USD</div>
+                      <a class="btn-add" href="#">+</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-item">
+                  <div class="product-img-icon">
+                    <a class="cart-heart" href=""
+                      ><ion-icon name="heart-outline"></ion-icon
+                    ></a>
+                    <img
+                      class="img-product"
+                      src="img/unsplash_tzBzkxMOHGQ.png"
+                      alt=""
+                      srcset=""
+                    />
+                  </div>
+                  <div class="product-text">
+                    <h2 class="title-product">
+                      Graphic tshirt trendy design mockup presented on wooden
+                      hanger
+                    </h2>
+                    <p class="description-product">Description</p>
+                    <div class="all-price">
+                      <div class="cost-product">18.00 USD</div>
+                      <a class="btn-add" href="#">+</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-item">
+                  <div class="product-img-icon">
+                    <a class="cart-heart" href=""
+                      ><ion-icon name="heart-outline"></ion-icon
+                    ></a>
+                    <img
+                      class="img-product"
+                      src="img/unsplash_WWesmHEgXDs.png"
+                      alt=""
+                      srcset=""
+                    />
+                  </div>
+                  <div class="product-text">
+                    <h2 class="title-product">
+                      Shirt mockup concept with plain clothing
+                    </h2>
+                    <p class="description-product">Description</p>
+                    <div class="all-price">
+                      <div class="cost-product">9.50 USD</div>
+                      <a class="btn-add" href="#">+</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="page">
+                <div class="page-input">
+                    <label class="page-label" for="select-page">Page</label>
+                    <select class="select-page" id="select-page" name="page">
+                      <option value="opsion1">2 of 101</option>
+                      <option value="opsion2">Opsioni 1</option>
+                      <option value="opsion3">Opsioni 2</option>
+                    </select>
+                </div>
+                <div class="page-number">
+                  <a href="#"> <i class="fa-solid fa-angles-left icon-page-left"></i></a>
+                  <div class="number-link-page">
+                  <a class="number-page" href="#">1</a>
+                  <a class="number-page" href="#">2</a>
+                  <a class="number-page" href="#">3</a>
+                  <a class="number-page" href="./searchin-no-item.html">...</a>
+                  <a class="number-page" href="#">100</a>
+                  <a class="number-page" href="#">101</a>
+                  </div>
+                 <a href="#"><i class="fa-solid fa-angles-right icon-page-right"></i></a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-element">
+          <div class="footer-sell">
+            <h2 class="title-footer">Make money with us</h2>
+            <div class="footer-sell-component">
+              <p class="foot-sell-element">Sell product on Sansa</p>
+              <p class="foot-sell-element">Sell on Sansa Business</p>
+              <p class="foot-sell-element">Self-Publish with Us</p>
+            </div>
+          </div>
+          <div class="footer-connect">
+            <h2 class="title-footer">Connects</h2>
+            <div class="footer-connect-component">
+              <div class="foot-connect-element">
+                <img class="footer-icon" src="img/brand-facebook.png" alt="" />
+                <p class="foot-icon-text">facebook</p>
+              </div>
+            </div>
+            <div class="footer-connect-component">
+              <div class="foot-connect-element">
+                <img class="footer-icon" src="img/Vector.png" alt="" />
+                <p class="foot-icon-text">Instagram</p>
+              </div>
+            </div>
+            <div class="footer-connect-component">
+              <div class="foot-connect-element">
+                <img class="footer-icon" src="img/Vector%20(1).png" alt="" />
+                <p class="foot-icon-text">LinkedIn</p>
+              </div>
+            </div>
+            <div class="footer-connect-component">
+              <div class="foot-connect-element">
+                <img class="footer-icon" src="img/Vector%20(2).png" alt="" />
+                <p class="foot-icon-text">X</p>
+              </div>
+            </div>
+          </div>
+          <div class="footer-payment">
+            <h2 class="title-footer">Payment Method</h2>
+            <div class="all-card-payment">
+              <div class="card-top">
+                <img class="card-payment" src="img/Visa.png" />
+                <img class="card-payment" src="img/UnionPay.png" />
+                <img class="card-payment" src="img/Mastercard.png" />
+                <img class="card-payment" src="img/PayPal.png" />
+              </div>
+              <div class="card-bottom">
+                <img class="card-payment" src="img/GooglePay.png" />
+                <img class="card-payment" src="img/ApplePay.png" />
+              </div>
+            </div>
+          </div>
+          <div class="footer-terms">
+            <h2 class="title-footer">Terms and Conditions</h2>
+          </div>
+        </div>
+        <div class="footer-last-element">
+          <div class="container container--col-sm">
+            <div class="logo-language-app">
+              <div class="logo-language">
+                <img
+                  class="logo-img-footer"
+                  src="img/Logo.png"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+              <div class="input-language">
+                <select id="language" name="language">
+                  <option value="">English</option>
+                  <option value="fr">French</option>
+                  <option value="de">German</option>
+                  <option value="es">Spanish</option>
+                </select>
+                <label for="language">Language</label>
+                <div class="footer-icon-language">
+                  <img class="icon-language" src="img/text-kina.png" />
+                </div>
+              </div>
+              <div class="download">Download App</div>
+            </div>
+            <div class="copyright">Copyright 2023</div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+  </body>
+</html>
