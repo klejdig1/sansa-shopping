@@ -38,7 +38,7 @@
         <nav class="main-nav">
           <ul class="main-nav-list">
             <li>
-              <a class="main-nav-link" href="./index.html"
+              <a class="main-nav-link" href="homepage.html"
                 ><span class="">Home</span></a
               >
             </li>
@@ -82,17 +82,13 @@
       <div class="page-breadcrumb">
         <div class="container">
           <div class="find">
-            <a class="find-home" href="./index.html"><p>Home/</p></a>
+            <a class="find-home" href="homepage.html"><p>Home/</p></a>
             <a class="find-product" href="./product-page.html">
-              <p>Shopping Bag</p></a
-            >
+              <p>Shopping Bag</p>
+            </a>
           </div>
           <div class="categories-search">
             <a href="" class="back">
-              <!--                <ion-icon-->
-              <!--                  class="icon-back"-->
-              <!--                  name="arrow-back-outline"-->
-              <!--                ></ion-icon>-->
               <h2 class="product-categorise">Shopping Bag</h2>
             </a>
           </div>
@@ -105,87 +101,223 @@
             <div class="border"></div>
             <div class="border-content">
               <div class="all-border">
-                <a href="" class="bag-border border1 green"></a>
-                <a href="" class="bag-border border2"></a>
-                <a href="" class="bag-border border3"></a>
+                <a href="" class="bag-border border1 green">
+                  <span class="border-button">Cart</span></a
+                >
+                <a href="" class="bag-border border2"
+                  ><span class="border-button">Shipping</span></a
+                >
+                <a href="" class="bag-border border3"
+                  ><span class="border-button">Payment</span></a
+                >
               </div>
-            </div>
-            <div class="flex-center">
-              <div class="border-button">Card</div>
-              <div class="border-button">Shipping</div>
-              <div class="border-button">Payment</div>
             </div>
           </div>
 
           <div class="cart-content">
-            <div class="cart-container">
-              <div class="cart-item">
-                <div class="image-option">
-                  <img src="img/unsplash_y_8CPliUdAs.png" />
-                </div>
-                <div class="product-info">
-                  <h2 class="">
-                    Front view of smiley woman pointing to herself
-                  </h2>
-                  <div class="flex-start">
-                    <div class="product-option">
-                      <span class="product-option-label">Color</span>
-                      <div class="product-option-wrapper">
-                        <label class="radio-wrapper">
-                          <input type="radio" checked="checked" name="radio" />
-                          <span class="checkmark"></span>
-                        </label>
-                        <label class="radio-wrapper">
-                          <input type="radio" name="radio" />
-                          <span class="checkmark green"></span>
-                        </label>
-                        <label class="radio-wrapper">
-                          <input type="radio" name="radio" />
-                          <span class="checkmark red"></span>
-                        </label>
-                        <label class="radio-wrapper">
-                          <input type="radio" name="radio" />
-                          <span class="checkmark orange"></span>
-                        </label>
+            <div class="cart-content__column">
+              <div class="cart-holder">
+                <div class="cart-container">
+                  <div class="cart-item">
+                    <div class="image-option">
+                      <img
+                              src="img/Shirt%20mockup%20concept%20with%20plain%20clothing.png"
+                      />
+                    </div>
+                    <div class="product-info">
+                      <div class="cost-product-name-shirt">
+                        <h2 class="name-shirt">White shirt</h2>
+                        <div class="cost-product">9.50 USD</div>
+                      </div>
+                      <p class="description-product">Description</p>
+                      <div class="flex-start">
+                        <div class="product-option">
+                          <span class="product-option-label">Size</span>
+                          <div class="product-option-wrapper">
+                            <select id="size_01" name="size_01">
+                              <option value="opsion1">L</option>
+                              <option value="opsion2">XM</option>
+                              <option value="opsion3">S</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="option-qty">
+                          <span class="product-option-label">Qty</span>
+                          <div class="option-element-number">
+                            <button class="option-operator">
+                              <img
+                                      class="option-operator1"
+                                      src="img/Vector%20301.png"
+                              />
+                            </button>
+                            <span class="option-number">1</span>
+                            <button class="option-operator">
+                              <img
+                                      class="option-operator2"
+                                      src="img/Group%201.png"
+                              />
+                            </button>
+                          </div>
+                        </div>
+                        <div class="product-option">
+                          <span class="product-option-label">Color</span>
+                          <div class="product-option-wrapper">
+                            <label class="radio-wrapper">
+                              <input
+                                      type="radio"
+                                      checked="checked"
+                                      name="qty_01"
+                              />
+                              <span class="checkmark"></span>
+                            </label>
+                            <label class="radio-wrapper">
+                              <input type="radio" name="qty_01" />
+                              <span class="checkmark green"></span>
+                            </label>
+                            <label class="radio-wrapper">
+                              <input type="radio" name="qty_01" />
+                              <span class="checkmark red"></span>
+                            </label>
+                            <label class="radio-wrapper">
+                              <input type="radio" name="qty_01" />
+                              <span class="checkmark orange"></span>
+                            </label>
+                          </div>
+                        </div>
                       </div>
                     </div>
-                    <div class="product-option">
-                      <span class="product-option-label">Size</span>
-                      <div class="product-option-wrapper">
-                        <select id="size" name="size">
-                          <option value="opsion1">L</option>
-                          <option value="opsion2">XM</option>
-                          <option value="opsion3">S</option>
-                        </select>
+                    <div class="cart-actions">
+                      <a href="#">Remove</a>
+                    </div>
+                  </div>
+                  <div class="cart-item">
+                    <div class="image-option">
+                      <img
+                              src="img/Shirt%20mockup%20concept%20with%20plain%20clothing.png"
+                      />
+                    </div>
+                    <div class="product-info">
+                      <div class="cost-product-name-shirt">
+                        <h2 class="name-shirt">Black shirt</h2>
+                        <div class="cost-product">6.75 USD</div>
+                      </div>
+                      <p class="description-product">Description</p>
+                      <div class="flex-start">
+                        <div class="product-option">
+                          <span class="product-option-label">Size</span>
+                          <div class="product-option-wrapper">
+                            <select name="size_02" id="size_02">
+                              <option value="opsion1">M</option>
+                              <option value="opsion2">L</option>
+                              <option value="opsion3">S</option>
+                              <option value="opsion3">XM</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="option-qty">
+                          <span class="product-option-label">Qty</span>
+                          <div class="option-element-number">
+                            <button class="option-operator">
+                              <img
+                                      class="option-operator1"
+                                      src="img/Vector%20301.png"
+                              />
+                            </button>
+                            <span class="option-number">1</span>
+                            <button class="option-operator">
+                              <img
+                                      class="option-operator2"
+                                      src="img/Group%201.png"
+                              />
+                            </button>
+                          </div>
+                        </div>
+                        <div class="product-option">
+                          <span class="product-option-label">Color</span>
+                          <div class="product-option-wrapper">
+                            <label class="radio-wrapper">
+                              <input
+                                      type="radio"
+                                      name="qty_02"
+                              />
+                              <span class="checkmark"></span>
+                            </label>
+                            <label class="radio-wrapper">
+                              <input type="radio"
+                                     checked="checked" name="qty_02" />
+                              <span class="checkmark green"></span>
+                            </label>
+                            <label class="radio-wrapper">
+                              <input type="radio" name="qty_02" />
+                              <span class="checkmark red"></span>
+                            </label>
+                            <label class="radio-wrapper">
+                              <input type="radio" name="qty_02" />
+                              <span class="checkmark orange"></span>
+                            </label>
+                          </div>
+                        </div>
                       </div>
                     </div>
-                    <div class="option-qty">
-                      <span class="product-option-label">Color</span>
-                      <div class="option-element-number">
-                        <button class="option-operator">
-                          <img
-                            class="option-operator1"
-                            src="img/Vector%20301.png"
-                          />
-                        </button>
-                        <span class="option-number">1</span>
-                        <button class="option-operator">
-                          <img
-                            class="option-operator2"
-                            src="img/Group%201.png"
-                          />
-                        </button>
-                      </div>
+                    <div class="cart-actions">
+                      <a href="#">Remove</a>
                     </div>
                   </div>
                 </div>
-                <div class="cart-actions">
-                  <a href="#">Remove</a>
+                <hr class="border-cart"></hr>
+                <div class="input-search">
+                  <label for="search">Code </label>
+                  <div class="input-box__input">
+                    <ion-icon class="icon" name="pricetags-outline"></ion-icon>
+                    <input
+                            id="search"
+                            type="search"
+                            name="search"
+                            required
+                            placeholder="Enter promotion code to get discount"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
 
-            <div class="cart-summary">summary</div>
+            <div class="cart-summary">
+              <div class="info-cart-item">
+                <h3 class="title-summary">Summary (2 items)</h3>
+                <div class="subtotal-text-cost">
+                  <p class="shipping-subtotal-text">Subtotal</p>
+                  <span class="shipping-subtotal-cost">16.25 USD</span>
+                </div>
+                <div class="shipping-text-cost">
+                  <p class="shipping-subtotal-text">Subtotal</p>
+                  <span class="shipping-subtotal-cost">Free</span>
+                </div>
+                <div class="total-text-cost">
+                  <p class="total-subtotal-text">Total</p>
+                  <span class="total-subtotal-cost">16.25 USD</span>
+                </div>
+                <div class="collection-button">
+                  <a class="button button--primary" href="#">Continue</a>
+                </div>
+              </div>
+              <div class="payment-service">
+                <div class="footer-payment">
+                  <h2 class="text-payment-service">Payment accepted:</h2>
+                  <div class="all-card-payment">
+                    <img class="card-payment" src="img/Visa.png" />
+                    <img class="card-payment" src="img/UnionPay.png" />
+                    <img class="card-payment" src="img/Mastercard.png" />
+                    <img class="card-payment" src="img/PayPal.png" />
+                    <img class="card-payment" src="img/GooglePay.png" />
+                    <img class="card-payment" src="img/ApplePay.png" />
+                  </div>
+                </div>
+                <div class="costumer-service">
+                  <h2 class="text-payment-service">Customer services:</h2>
+                  <span class="number-service">24/7 +855 (240) 389 328</span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
