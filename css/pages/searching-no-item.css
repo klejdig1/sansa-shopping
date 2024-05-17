@@ -20,3 +20,137 @@
   font-weight: 500;
   color: #484a47;
 }
+@media (max-width: 942px) {
+  .section-seller-list {
+    flex-wrap: wrap;
+  }
+  .categories-search {
+    display: block;
+  }
+  .product-categorise {
+    display: flex;
+    justify-content: end;
+  }
+  .input-search {
+    display: flex;
+    justify-content: end;
+    margin-top: 2rem;
+  }
+  .input-search label {
+    transform: translate(-218px, -5px);
+  }
+  .icon-search-product {
+    width: 30%;
+  }
+}
+@media (max-width: 720px) {
+  .grid-seller-filters {
+    grid-template-columns: 180px 1fr;
+  }
+  .title-filters {
+    padding: 5.5px 5.8rem 1rem 1.8rem;
+  }
+  .input-search input {
+    font-size: 1.2rem;
+  }
+  .input-search label {
+    transform: translate(-170px, -5px);
+  }
+  .icon-search-product {
+    width: 40%;
+  }
+}
+@media (max-width: 639px) {
+  .container {
+    padding: 0 4rem 0 3rem;
+  }
+}
+@media (max-width: 591px) {
+  .filters-item {
+    padding: 1.2rem 1.2rem 1.2rem 1.2rem;
+  }
+  .grid-seller-filters {
+    grid-template-columns: 150px 1fr;
+  }
+  .title-filters {
+    font-size: 2.6rem;
+  }
+  .product-categorise {
+    font-size: 1.5rem;
+  }
+  .input-search .icon {
+    transform: translate(50%, -2px);
+  }
+  .input-search label {
+    transform: translate(-304%, -4px);
+  }
+  .input-search input {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 455px) {
+  .input-search {
+    display: block;
+  }
+  .input-search label {
+    transform: translate(22%, -4px);
+  }
+  .icon-search-product {
+    width: 60%;
+  }
+  .title-search-product {
+    font-size: 2rem;
+  }
+  .text-search-product {
+    font-size: 1.2rem;
+  }
+  .find-home,
+  .find-product {
+    font-size: 1.2rem;
+  }
+  .input-search label {
+    font-size: 9px;
+  }
+}
+@media (max-width: 400px) {
+  .grid-seller-filters {
+    grid-template-columns: 133px 1fr;
+  }
+  .text-search-product {
+    font-size: 1rem;
+  }
+  .title-search-product {
+    font-size: 1.5rem;
+  }
+  .input-search input {
+    font-size: 1rem;
+    padding: 1rem 4rem;
+  }
+  .input-search label {
+    font-size: 8px;
+  }
+  .product-categorise {
+    font-size: 1.2rem;
+  }
+  .find-home,
+  .find-product {
+    font-size: 1rem;
+  }
+  .title-filters {
+    font-size: 2.2rem;
+  }
+  .icon-filters {
+    font-size: 2rem;
+  }
+  .text-filters {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  .icon-up-filters {
+    font-size: 1.2rem;
+  }
+  .filters-item {
+    padding: 1rem;
+    margin: 1rem;
+  }
+}

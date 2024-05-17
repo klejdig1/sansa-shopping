@@ -1,0 +1,34 @@
+.noproduct-all {
+  margin: 3rem 0 8rem 0;
+}
+.flex-icon-noproduct {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon-noproduct {
+  width: 15%;
+  margin-top: 8rem;
+}
+.title-noproduct {
+  text-align: center;
+  font-size: 2.4rem;
+  margin: 5rem 0 8px 0;
+}
+.text-noproduct {
+  text-align: center;
+  font-size: 1.6rem;
+  margin: 0;
+}
+.collection-button {
+  display: flex;
+  justify-content: center;
+  margin: 8rem 0 8rem 0;
+}
+.collection-button .button {
+  width: 408px;
+  margin: 0;
+}
+
+@media (max-width: 560px) {
+}
