@@ -411,7 +411,34 @@ opacity: 0;
   height: 20px;
 }
 /**/
-
+@media (max-width: 78px) {
+.all-border{
+  gap: 19rem;
+}
+}
+@media (max-width: 578px) {
+  .all-border{
+    gap: 13rem;
+  }
+}
+@media (max-width: 469px) {
+  .all-border{
+    gap: 13rem;
+  }
+}
+@media (max-width: 400px) {
+  .all-border{
+    gap: 7rem;
+  }
+  .bag-border{
+    top: -9px;
+    width: 16px;
+    height: 16px;
+  }
+  .border-button{
+    font-size: 1.2rem;
+  }
+}
 /**/
 
 
