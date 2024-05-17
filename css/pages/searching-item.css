@@ -284,3 +284,274 @@ label {
   left: auto;
 }
 /**/
+@media (max-width: 1044px) {
+  .product-img-icon {
+    height: 14rem;
+  }
+}
+
+@media (max-width: 942px) {
+  .section-seller-list {
+    flex-wrap: wrap;
+  }
+  .all-product-item {
+    grid-template-columns: 1fr 1fr;
+  }
+  .product-categorise {
+    font-size: 2rem;
+  }
+  .input-search input {
+    font-size: 1.2rem;
+  }
+  .input-search label {
+    font-size: 10px;
+  }
+  .section-headline label {
+    font-size: 10px;
+    transform: translate(15px, -7px);
+  }
+  .section-headline_heading {
+    font-size: 1.5rem;
+  }
+  .find-home,
+  .find-product {
+    font-size: 1.2rem;
+  }
+  .title-filters {
+    font-size: 3rem;
+  }
+  .page-label {
+    font-size: 10px;
+    transform: translate(15px, -6px);
+  }
+  .number-page {
+    font-size: 1.2rem;
+    padding: 7px 12px;
+  }
+  .icon-page-left,
+  .icon-page-right {
+    font-size: 1.2rem;
+  }
+  .select-page {
+    width: 117px;
+    height: 43px;
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 847px) {
+  .grid-seller-filters {
+    grid-template-columns: 200px 1fr;
+  }
+  .container {
+    padding: 0px 3rem 0 3rem;
+  }
+  .size-cub {
+    padding: 1.2rem 3.2rem 1.2rem 3.2rem;
+  }
+  .cub a {
+    font-size: 1rem;
+  }
+  .cub-o {
+    height: 19px;
+  }
+  .rating input + label {
+    font-size: 1.8rem;
+  }
+  .all-material {
+    font-size: 1rem;
+  }
+  .icon-filters {
+    font-size: 2rem;
+  }
+  .text-filters {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  .icon-up-filters {
+    font-size: 1.4rem;
+  }
+  .input-search input {
+    font-size: 1rem;
+  }
+  .product-categorise {
+    font-size: 1.2rem;
+  }
+  .input-search .icon {
+    top: 10px;
+  }
+  .filters-item {
+    margin: 1rem;
+  }
+  .select-zgjedhja {
+    width: 163px;
+    height: 40px;
+  }
+  .page-label {
+    font-size: 9px;
+    transform: translate(7px, -6px);
+  }
+  /*.select-page {*/
+  /*  width: 91px;*/
+  /*  height: 37px;*/
+  /*  padding-left: 12px;*/
+  /*  font-size: 1rem;*/
+  /*}*/
+  .page {
+    display: block;
+  }
+  .page-number {
+    justify-content: end;
+    margin-top: 2rem;
+  }
+}
+@media (max-width: 680px) {
+  .categories-search {
+    display: block;
+  }
+
+  .input-search {
+    margin-top: 2rem;
+  }
+
+  .product-categorise {
+    display: flex;
+    justify-content: end;
+  }
+
+  .section-headline {
+    display: block;
+  }
+
+  .select-joice {
+    display: flex;
+    justify-content: end;
+    margin-top: 2rem;
+  }
+
+  .section-headline label {
+    font-size: 10px;
+    transform: translate(-124px, -7px);
+  }
+
+  .grid-seller-filters {
+    grid-template-columns: 150px 1fr;
+  }
+
+  .title-filters {
+    font-size: 2.2rem;
+    padding: 5.5px 5.8rem 1rem 2.8rem;
+  }
+
+  .cub-o {
+    height: 15px;
+  }
+
+  .filters-item {
+    margin: 1rem;
+    padding: 1rem;
+  }
+
+  .cub a {
+    margin-right: 1rem;
+    padding: 3px 7px;
+  }
+
+  .icon-filters {
+    font-size: 1.5rem;
+  }
+
+  .text-filters {
+    margin: 0;
+    font-size: 1rem;
+  }
+
+  .all-cubs {
+    gap: 6px;
+  }
+
+  .min-max-text {
+    font-size: 1rem;
+    margin: 0;
+  }
+
+  .min-max-number {
+    width: 54px;
+    font-size: 1.2rem;
+  }
+  .min-max-color {
+    width: 9px;
+    height: 9px;
+  }
+  .all-material {
+    padding: 4px 5px;
+  }
+  .rating-star {
+    column-gap: 6px;
+  }
+  .rating input + label {
+    font-size: 1.2rem;
+  }
+  .filters-icon {
+    top: 61px;
+  }
+}
+@media (max-width: 544px) {
+  .grid-seller-filters {
+    grid-template-columns: 130px 1fr;
+  }
+  .cub-o {
+    height: 12px;
+  }
+  .min-max-color {
+    margin: 0 0 0px 3px;
+  }
+  .select-page {
+    padding-left: 10px;
+    width: 91px;
+    height: 35px;
+  }
+  .all-product-item {
+    grid-template-columns: 1fr;
+  }
+  .section-headline_heading {
+    font-size: 1.2rem;
+  }
+  .section-headline label {
+    transform: translate(7px, -6px);
+    font-size: 9px;
+  }
+  .select-zgjedhja {
+    padding: 1rem;
+    width: 100%;
+  }
+  .select-joice {
+    display: block;
+  }
+  .section-headline_heading {
+    display: flex;
+    justify-content: center;
+  }
+  .icon-page-left {
+    padding: 10px 10px 10px 10px;
+  }
+  .icon-page-right {
+    padding: 10px 10px 10px 10px;
+  }
+  .icon-page-left,
+  .icon-page-right {
+    font-size: 1rem;
+  }
+  .container {
+    padding: 0px 1rem 0 1rem;
+  }
+  .number-page {
+    font-size: 1.1rem;
+    padding: 5px 7px;
+  }
+  .filters-icon {
+    font-size: 1.2rem;
+  }
+  .title-filters {
+    padding: 5.5px 5.8rem 1rem 1.8rem;
+  }
+}
