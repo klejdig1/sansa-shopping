@@ -30,5 +30,25 @@
   margin: 0;
 }
 
-@media (max-width: 560px) {
+@media (max-width: 617px) {
+  .icon-noproduct {
+    width: 25%;
+  }
+  .collection-button .button {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 403px) {
+  .icon-noproduct {
+    width: 30%;
+  }
+  .collection-button .button {
+    font-size: 1.4rem;
+  }
+  .title-noproduct {
+    font-size: 1.8rem;
+  }
+  .text-noproduct {
+    font-size: 1.4rem;
+  }
 }

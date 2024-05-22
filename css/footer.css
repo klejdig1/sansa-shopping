@@ -107,6 +107,7 @@
   font-size: 1.6rem;
   font-weight: 500;
   color: #484a47;
+  text-decoration: none;
 }
 .copyright {
   display: flex;

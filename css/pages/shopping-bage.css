@@ -222,7 +222,38 @@
     grid-template-columns: 1fr;
   }
 }
+@media (max-width: 768px) {
+  .collection-button .button {
+    width: 100%;
+    font-size: 1.4rem;
+  }
+}
 /**/
+@media (max-width: 542px) {
+  .cart-item {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .cost-product-name-shirt {
+    justify-content: center;
+  }
+  .cost-product {
+    font-size: 1.8rem;
+  }
+  .name-shirt {
+    font-size: 1.4rem;
+  }
+  .description-product {
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+  }
+  .flex-start {
+    justify-content: center;
+  }
+}
+/*****************************************************/
 @media (max-width: 778px) {
   .all-border {
     gap: 19rem;
@@ -232,10 +263,46 @@
   .all-border {
     gap: 13rem;
   }
+  .title-summary {
+    font-size: 1.8rem;
+  }
+  .shipping-subtotal-text {
+    font-size: 1.4rem;
+  }
+  .shipping-subtotal-cost {
+    font-size: 1.4rem;
+  }
+  .total-subtotal-text {
+    font-size: 1.8rem;
+  }
+  .total-subtotal-cost {
+    font-size: 2rem;
+  }
+  .input-search input {
+    font-size: 1.2rem;
+  }
 }
 @media (max-width: 469px) {
   .all-border {
     gap: 13rem;
+  }
+  .title-summary {
+    font-size: 1.5rem;
+  }
+  .shipping-subtotal-text {
+    font-size: 1.2rem;
+  }
+  .shipping-subtotal-cost {
+    font-size: 1.2rem;
+  }
+  .total-subtotal-text {
+    font-size: 1.6rem;
+  }
+  .total-subtotal-cost {
+    font-size: 1.8rem;
+  }
+  .collection-button .button {
+    font-size: 1.2rem;
   }
 }
 @media (max-width: 400px) {
