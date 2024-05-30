@@ -1,0 +1,74 @@
+.all-input {
+  padding: 0 2.4rem;
+}
+.input-colon {
+  gap: 3.2rem;
+  display: flex;
+}
+.input-box {
+  margin: 3.2rem 0 0 0;
+}
+/**/
+.border2 {
+  background-color: #8ac732;
+}
+.title-input2 {
+  margin-top: 4.8rem;
+}
+.title-input-search {
+  margin: 0;
+  font-size: 2.2rem;
+}
+.text-input-right {
+  margin: 0;
+}
+.input-checkbox {
+  margin-left: 0;
+  width: 100%;
+  border: 1px solid;
+  padding: 1.4rem 1.9rem 1.4rem 1.4rem;
+}
+.input-checkbox,
+label {
+  justify-content: space-between;
+}
+.input-checkbox label:before {
+  border-radius: 50%;
+}
+.title-input3 {
+  margin-top: 4.8rem;
+}
+.check-box {
+  margin-top: 3.2rem;
+}
+/**/
+.link-address-on-icon {
+  display: flex;
+  margin-top: 4rem;
+  position: relative;
+  text-decoration: none;
+}
+.icon-address-on {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  z-index: 2;
+  transform: translateY(-9px);
+  left: 19px;
+  font-size: 20px;
+  color: #8ac732;
+  top: 50%;
+}
+.link-address-on {
+  border: 1px solid #6a6c68;
+  padding: 1.4rem 2.4rem 1.4rem 4.2rem;
+  border-radius: 24px;
+  font-weight: 500;
+  font-size: 1.4rem;
+  color: #8ac732;
+}
+.moment-text-shipping {
+  font-size: 1.6rem;
+  padding-top: 14rem;
+  margin: 0;
+}
