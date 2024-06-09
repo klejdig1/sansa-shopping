@@ -1,0 +1,178 @@
+.border3 {
+  background-color: #8ac732;
+}
+.all-payment-card {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 2.4rem;
+}
+.pay-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-right: 35px;
+}
+.border-pay {
+  padding: 1.2rem 1.2rem;
+  border: 1px solid gray;
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+}
+.border-pay-icon {
+  width: 20px;
+  height: 20px;
+  border: 1px solid;
+  border-radius: 50%;
+  text-decoration: none;
+}
+.img-card-pay {
+  width: 24px;
+  height: 24px;
+}
+.br-img {
+  border: 1px solid gray;
+  border-radius: 3px;
+}
+.padding-right-input input {
+  padding-right: 20rem;
+}
+.p-card {
+  margin: 0;
+}
+
+.all-where {
+  display: flex;
+  justify-content: end;
+  gap: 8px;
+  margin-top: 4.4rem;
+}
+.all-where a {
+  font-size: 1.4rem;
+  color: gray;
+}
+.button--primary {
+  background-color: #dadfd8;
+  color: #101110;
+}
+
+/*.input-checkbox-card {*/
+/*  display: flex;*/
+/*  align-items: center;*/
+/*  position: relative;*/
+/*}*/
+/*.input-checkbox-card input {*/
+/*  display: block;*/
+/*}*/
+
+/*.input-checkbox-card:before {*/
+/*  content: "";*/
+/*  width: 1.6rem;*/
+/*  height: 1.5rem;*/
+/*  border: 2px solid #484a47;*/
+/*  border-radius: 0.15em;*/
+/*}*/
+/*.input-checkbox-card input[type="checkbox"] {*/
+/*  cursor: pointer;*/
+/*  opacity: 1;*/
+/*  position: absolute;*/
+/*}*/
+/*.input-checkbox-card input[type="checkbox"]:checked:before {*/
+/*  background-color: green;*/
+/*  content: "\002714";*/
+/*  display: flex;*/
+/*  justify-content: center;*/
+/*  align-items: center;*/
+/*  color: white;*/
+/*}*/
+
+/**/
+
+/*.input-checkbox-card {*/
+/*  display: block;*/
+/*  !*align-items: center;*!*/
+/*  position: relative;*/
+/*  cursor: pointer;*/
+/*  width: 24px;*/
+/*  height: 24px;*/
+/*  user-select: none;*/
+/*}*/
+/*.input-checkbox-card input {*/
+/*  position: absolute;*/
+/*  opacity: 0;*/
+/*  cursor: pointer;*/
+/*}*/
+
+/*.input-checkbox-card .check-card {*/
+/*  position: absolute;*/
+/*  top: 0;*/
+/*  left: 0;*/
+/*  height: 25px;*/
+/*  width: 25px;*/
+/*  background-color: white;*/
+/*  border-radius: 50%;*/
+/*  border: 1px solid #44483d;*/
+/*}*/
+/*.input-checkbox-card .check-card:after {*/
+/*  left: 4px;*/
+/*  top: 4px;*/
+/*  !* width: 1px; *!*/
+/*  !*height: 0px;*!*/
+/*  border: solid green;*/
+/*  border-width: 8px;*/
+/*  transform: rotate(45deg);*/
+/*  border-radius: 50%;*/
+/*  !*display: none;*!*/
+/*}*/
+/*.input-checkbox-card input:checked ~ .check-card:after {*/
+/*  display: block;*/
+/*}*/
+
+/*.input-checkbox-card .check-card:after {*/
+/*  content: "";*/
+/*  position: absolute;*/
+/*  display: none;*/
+/*}*/
+
+.input-checkbox-card {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  user-select: none;
+}
+
+.input-checkbox-card input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.input-checkbox-card .check-card {
+  position: absolute;
+  top: 2px;
+  left: 3px;
+  height: 19px;
+  width: 19px;
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid #44483d;
+}
+
+.input-checkbox-card .check-card:after {
+  content: "";
+  position: absolute;
+  display: none;
+  left: 2px;
+  top: 2px;
+  width: 13px;
+  height: 13px;
+  background-color: green;
+  border-radius: 50%;
+}
+
+.input-checkbox-card input:checked ~ .check-card:after {
+  display: block;
+}
