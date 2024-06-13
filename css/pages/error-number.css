@@ -1,0 +1,22 @@
+.footer {
+  display: none;
+}
+.icon-noproduct {
+  width: 22%;
+  margin-top: 17rem;
+}
+.collection-button .button {
+  width: auto;
+  margin: 0;
+}
+.title-noproduct {
+  font-size: 5.7rem;
+  font-weight: normal;
+  margin: 5.6rem 0 1rem 0;
+}
+.text-noproduct {
+  font-size: 1.6rem;
+}
+.collection-button {
+  margin: 3.8rem 0 8rem;
+}
