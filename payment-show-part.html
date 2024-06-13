@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Product-pages</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&family=Rubik:ital,wght@0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/pages/home.css" />
+    <link rel="stylesheet" href="css/pages/product-page.css" />
+    <link rel="stylesheet" href="css/pages/details.css" />
+    <link rel="stylesheet" href="css/pages/shopping-bage.css" />
+    <link rel="stylesheet" href="css/pages/shipping.css" />
+    <link rel="stylesheet" href="css/pages/shipping-error.css" />
+    <link rel="stylesheet" href="css/pages/bage-card-debit-credit.css" />
+    <link rel="stylesheet" href="css/pages/payment-show-part.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="overlay hidden"></div>
+    <header class="header">
+      <div class="header_wrapper container">
+        <div class="logo">
+          <img class="logo-img" src="img/Logo.png" alt="" srcset="" />
+        </div>
+
+        <nav class="main-nav">
+          <ul class="main-nav-list">
+            <li>
+              <a class="main-nav-link" href="homepage.html"
+                ><span class="">Home</span></a
+              >
+            </li>
+            <li>
+              <a class="main-nav-link" href="#"
+                ><span class="">Product</span></a
+              >
+            </li>
+            <li><a class="main-nav-link" href="#">Blog</a></li>
+            <li><a class="main-nav-link" href="#">About Us</a></li>
+            <li><a class="main-nav-link" href="#">Contact Us</a></li>
+          </ul>
+        </nav>
+        <button class="btn-mobile-nav">
+          <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+          <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+        </button>
+
+        <div class="nav-icon icon-number">
+          <a href="#">
+            <ion-icon class="icon-header" name="search-outline"></ion-icon
+          ></a>
+          <a href="#">
+            <ion-icon class="icon-header" name="heart-outline"></ion-icon
+          ></a>
+          <a href="#" class="nav-icon_cart">
+            <span id="cart_count">3</span>
+            <ion-icon class="icon-header" name="cart-outline"></ion-icon>
+          </a>
+          <a href="signin.html"
+            ><ion-icon
+              class="icon-header"
+              name="person-circle-outline"
+            ></ion-icon
+          ></a>
+        </div>
+      </div>
+    </header>
+    <div class="payment-show hidden">
+      <div class="name-card-exit">
+        <p class="name-card-show">Credit/Debit Card</p>
+        <button><i class="fa-solid fa-xmark img-card-show"></i></button>
+      </div>
+      <div class="cart-show-all-info">
+        <div class="border-color-show-cart">
+          <div class="cart-show-name-logo">
+            <p class="cart-show-name">Credit Card</p>
+            <img
+              class="show-logo-cart"
+              src="img/Mastercard.png"
+              alt=""
+              srcset=""
+            />
+          </div>
+          <div class="cart-show-number">
+            <input
+              type="number"
+              name=""
+              id=""
+              placeholder="1234   5678   9101   1121"
+            />
+          </div>
+          <div class="cart-show-name-data">
+            <p class="name-cart-person">Jack Lewis</p>
+            <p class="cart-data">06/21</p>
+          </div>
+        </div>
+      </div>
+      <div class="cart-btn">
+        <button class="button-cart-show">Close</button>
+      </div>
+    </div>
+
+    <main>
+      <div class="page-breadcrumb">
+        <div class="container">
+          <div class="find">
+            <a class="find-home" href="homepage.html"><p>Home/</p></a>
+            <a class="find-product" href="./product-page.html">
+              <p>Shopping Bag</p>
+            </a>
+          </div>
+          <div class="categories-search">
+            <a href="" class="back">
+              <h2 class="product-categorise">Shopping Bag</h2>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <section class="cart-page">
+        <div class="container">
+          <div class="border-button-next">
+            <div class="border"></div>
+            <div class="border-content">
+              <div class="all-border">
+                <a href="" class="bag-border border1 green">
+                  <span class="border-button">Cart</span></a
+                >
+                <a href="" class="bag-border border2 green"
+                  ><span class="border-button">Shipping</span></a
+                >
+                <a href="" class="bag-border border3"
+                  ><span class="border-button">Payment</span></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="cart-content">
+            <div class="all-input">
+              <div class="title-input">
+                <h2 class="title-input-search">Payment Method</h2>
+                <div class="all-payment-card">
+                  <div class="border-pay">
+                    <div class="pay-card">
+                      <ion-icon
+                        class="img-card-pay"
+                        name="wallet-outline"
+                      ></ion-icon>
+                      <p class="p-card">Card</p>
+                    </div>
+                    <label class="input-checkbox-card">
+                      <input
+                        class="check-1"
+                        type="radio"
+                        checked="checked"
+                        name="check--1"
+                      />
+                      <span class="check-card"></span>
+                    </label>
+                  </div>
+                  <div class="border-pay pay-paypal">
+                    <div class="pay-card">
+                      <img class="img-card-pay br-img" src="img/PayPal.png" />
+                      <p class="p-card">Paypal</p>
+                    </div>
+
+                    <label class="input-checkbox-card">
+                      <input
+                        class="check-2"
+                        type="radio"
+                        checked="checked"
+                        name="check--1"
+                      />
+                      <span class="check-card"></span>
+                    </label>
+                  </div>
+                  <div class="border-pay pay-g-pay">
+                    <div class="pay-card">
+                      <img
+                        class="img-card-pay br-img"
+                        src="img/GooglePay.png"
+                      />
+                      <p class="p-card">G Pay</p>
+                    </div>
+                    <label class="input-checkbox-card">
+                      <input
+                        class="check-3"
+                        type="radio"
+                        checked="checked"
+                        name="check--1"
+                      />
+                      <span class="check-card"></span>
+                    </label>
+                  </div>
+                  <div class="border-pay pay-a-pay">
+                    <div class="pay-card">
+                      <img class="img-card-pay br-img" src="img/ApplePay.png" />
+                      <p class="p-card">A Pay</p>
+                    </div>
+                    <label class="input-checkbox-card">
+                      <input
+                        class="check-4"
+                        type="radio"
+                        checked="checked"
+                        name="check--1"
+                      />
+                      <span class="check-card"></span>
+                    </label>
+                  </div>
+                </div>
+                <div class="input-colon">
+                  <div class="input-box padding-right-input input">
+                    <label for="email"> Name on card </label>
+                    <div class="input-box__input">
+                      <ion-icon
+                        class="icon"
+                        name="person-circle-outline"
+                      ></ion-icon>
+                      <input
+                        id="email"
+                        type="email"
+                        name="email"
+                        required
+                        placeholder="Enter name on card                  "
+                        class=""
+                      />
+                    </div>
+                  </div>
+                  <div class="input-box">
+                    <label for="number"> Expired date </label>
+                    <div class="input-box__input">
+                      <ion-icon class="icon" name="calendar-outline"></ion-icon>
+                      <input
+                        id="number"
+                        type="number"
+                        name="number"
+                        required
+                        placeholder="Enter name on card"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="input-colon">
+                  <div class="input-box padding-right-input input">
+                    <label for="first name">Card number </label>
+                    <div class="input-box__input">
+                      <ion-icon class="icon" name="wallet-outline"></ion-icon>
+                      <input
+                        id="first name"
+                        type="number"
+                        name="first name"
+                        required
+                        placeholder="Enter card number       "
+                      />
+                    </div>
+                  </div>
+                  <div class="input-box">
+                    <label for="last name"> CVV </label>
+                    <div class="input-box__input">
+                      <ion-icon
+                        class="icon"
+                        name="bar-chart-outline"
+                      ></ion-icon>
+                      <input
+                        id="last name"
+                        type="text"
+                        name="last name"
+                        required
+                        placeholder="Enter CVV"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="all-where">
+                <a href="">Where is Card number?</a>
+                <a href="">Where is Expired date?</a>
+                <a href="">Where is my CVV?</a>
+              </div>
+            </div>
+            <div class="cart-summary">
+              <div class="info-cart-item">
+                <h3 class="title-summary">Summary (2 items)</h3>
+                <div class="subtotal-text-cost">
+                  <p class="shipping-subtotal-text">Subtotal</p>
+                  <span class="shipping-subtotal-cost">16.25 USD</span>
+                </div>
+                <div class="shipping-text-cost">
+                  <p class="shipping-subtotal-text">Subtotal</p>
+                  <span class="shipping-subtotal-cost">Free</span>
+                </div>
+                <div class="total-text-cost">
+                  <p class="total-subtotal-text">Total</p>
+                  <span class="total-subtotal-cost">16.25 USD</span>
+                </div>
+                <div class="collection-button">
+                  <a class="button button--primary" href="#">Pay Now</a>
+                </div>
+              </div>
+              <div class="payment-service">
+                <div class="footer-payment">
+                  <h2 class="text-payment-service">Payment accepted:</h2>
+                  <div class="all-card-payment">
+                    <img class="card-payment" src="img/Visa.png" />
+                    <img class="card-payment" src="img/UnionPay.png" />
+                    <img class="card-payment" src="img/Mastercard.png" />
+                    <img class="card-payment" src="img/PayPal.png" />
+                    <img class="card-payment" src="img/GooglePay.png" />
+                    <img class="card-payment" src="img/ApplePay.png" />
+                  </div>
+                </div>
+                <div class="costumer-service">
+                  <h2 class="text-payment-service">Customer services:</h2>
+                  <span class="number-service">24/7 +855 (240) 389 328</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-element">
+          <div class="footer-sell">
+            <h2 class="title-footer">Make money with us</h2>
+            <div class="footer-sell-component">
+              <p class="foot-sell-element">Sell product on Sansa</p>
+              <p class="foot-sell-element">Sell on Sansa Business</p>
+              <p class="foot-sell-element">Self-Publish with Us</p>
+            </div>
+          </div>
+          <div class="footer-connect">
+            <h2 class="title-footer">Connects</h2>
+            <div class="footer-connect-component">
+              <div class="foot-connect-element">
+                <img class="footer-icon" src="img/brand-facebook.png" alt="" />
+                <p class="foot-icon-text">facebook</p>
+              </div>
+            </div>
+            <div class="footer-connect-component">
+              <div class="foot-connect-element">
+                <img class="footer-icon" src="img/Vector.png" alt="" />
+                <p class="foot-icon-text">Instagram</p>
+              </div>
+            </div>
+            <div class="footer-connect-component">
+              <div class="foot-connect-element">
+                <img class="footer-icon" src="img/Vector%20(1).png" alt="" />
+                <p class="foot-icon-text">LinkedIn</p>
+              </div>
+            </div>
+            <div class="footer-connect-component">
+              <div class="foot-connect-element">
+                <img class="footer-icon" src="img/Vector%20(2).png" alt="" />
+                <p class="foot-icon-text">X</p>
+              </div>
+            </div>
+          </div>
+          <div class="footer-payment">
+            <h2 class="title-footer">Payment Method</h2>
+            <div class="all-card-payment">
+              <div class="card-top">
+                <img class="card-payment" src="img/Visa.png" />
+                <img class="card-payment" src="img/UnionPay.png" />
+                <img class="card-payment" src="img/Mastercard.png" />
+                <img class="card-payment" src="img/PayPal.png" />
+              </div>
+              <div class="card-bottom">
+                <img class="card-payment" src="img/GooglePay.png" />
+                <img class="card-payment" src="img/ApplePay.png" />
+              </div>
+            </div>
+          </div>
+          <div class="footer-terms">
+            <h2 class="title-footer">Terms and Conditions</h2>
+          </div>
+        </div>
+        <div class="footer-last-element">
+          <div class="container container--col-sm">
+            <div class="logo-language-app">
+              <div class="logo-language">
+                <img
+                  class="logo-img-footer"
+                  src="img/Logo.png"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+              <div class="input-language">
+                <select id="language" name="language">
+                  <option value="">English</option>
+                  <option value="fr">French</option>
+                  <option value="de">German</option>
+                  <option value="es">Spanish</option>
+                </select>
+                <label for="language">Language</label>
+                <div class="footer-icon-language">
+                  <img class="icon-language" src="img/text-kina.png" />
+                </div>
+              </div>
+              <div class="download">Download App</div>
+            </div>
+            <div class="copyright">Copyright 2023</div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+  </body>
+</html>

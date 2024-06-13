@@ -1,0 +1,102 @@
+.footer {
+  display: none;
+}
+.payment-show {
+  position: absolute;
+  top: 32%;
+  left: 35%;
+  padding: 3.2rem;
+  border: 1px solid;
+  z-index: 9999;
+  background-color: white;
+  width: 27%;
+  border-radius: 24px;
+}
+.name-card-exit {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.name-card-show {
+  font-size: 2.2rem;
+  margin: 0;
+}
+.img-card-show {
+  font-size: 2.4rem;
+}
+.name-card-exit button {
+  border: none;
+}
+/**/
+.cart-show-all-info {
+  width: auto;
+  margin: 3.2rem 0 3.2rem 0;
+}
+.border-color-show-cart {
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background-color: #8ac732;
+  padding: 2.6rem 1.8rem 2.6rem 1rem;
+}
+.cart-show-name-logo {
+  display: flex;
+  justify-content: space-between;
+}
+.cart-show-name {
+  font-size: 1.2rem;
+  color: white;
+  margin: 0;
+}
+.show-logo-cart {
+  width: 50px;
+  height: 30px;
+}
+.cart-show-number {
+  margin-top: 3.9rem;
+  margin-bottom: 4.8rem;
+}
+.cart-show-number input {
+  font-size: 1.8rem;
+  background-color: transparent;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 8px 0 8px 8px;
+}
+.cart-show-number input::placeholder {
+  color: white;
+}
+.cart-show-name-data {
+  display: flex;
+  justify-content: space-between;
+}
+.name-cart-person,
+.cart-data {
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+.cart-btn {
+  display: flex;
+  justify-content: end;
+}
+.button-cart-show {
+  color: #8ac732;
+  font-size: 1.4rem;
+  border: 1px solid #6a6c68;
+  padding: 1.4rem 2.4rem;
+  background-color: white;
+  border-radius: 24px;
+}
+
+.hidden {
+  display: block;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+
+  z-index: 115;
+}
