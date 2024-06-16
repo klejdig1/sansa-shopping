@@ -1,0 +1,82 @@
+.create-acc {
+  margin-bottom: 8rem;
+}
+
+.categories-search {
+  margin-top: 3.2rem;
+}
+.back {
+  text-decoration: none;
+}
+.title-acc-info {
+  margin: 1.6rem 0 6px 0;
+  font-size: 2.8rem;
+}
+.text-acc-info {
+  font-size: 1.6rem;
+}
+.img-profile {
+  width: 110px;
+}
+.tittle-down-flex {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 16px;
+}
+.profile-down-icon {
+  font-size: 2rem;
+  color: #000000;
+}
+.input-language-profile {
+  position: relative;
+}
+.input-language-profile select {
+  width: 100%;
+  padding: 1.2rem 4rem;
+  font-size: 1.6rem;
+  color: #8d918c;
+}
+.placeholder-butt input {
+  cursor: pointer;
+}
+
+.input-language-profile label {
+  position: absolute;
+  transform: translate(10px, -7px);
+  background-color: white;
+  color: black;
+  z-index: 1;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 0 5px;
+}
+.icon-language2 {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px;
+  font-size: 20px;
+}
+.placeholder-butt2 input {
+  cursor: pointer;
+}
+/**/
+
+.placeholder-butt {
+  position: relative;
+}
+.input-button-placeholder input[type="button"] {
+  text-align: start;
+}
+.placeholder-butt input[type="button"].has-value {
+  color: #000; /* Normal text color */
+}
+.red2 {
+  color: red;
+}
+.placeholder-butt2 input[type="button"].has-value {
+}
