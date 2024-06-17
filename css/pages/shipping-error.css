@@ -38,3 +38,6 @@
   color: #484a47;
   text-decoration: none;
 }
+.icon-address-on {
+  transform: translateY(-9px);
+}
