@@ -20,6 +20,11 @@
   font-weight: 500;
   color: #484a47;
 }
+.icon-down-filters {
+  font-size: 1.6rem;
+  color: black;
+}
+
 @media (max-width: 942px) {
   .section-seller-list {
     flex-wrap: wrap;

@@ -1,0 +1,67 @@
+.hidden {
+  display: none;
+}
+.ai-chat {
+  position: absolute;
+  border: 1px solid;
+  width: 409px;
+  height: 406px;
+  right: 73px;
+  border-radius: 24px;
+  overflow: hidden;
+}
+.name-chat-icon-exit {
+  padding: 2.4rem;
+  background-color: #f1fddf;
+}
+.name-chat-icon-exit {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.name-chat {
+  flex: 1;
+  margin: 0;
+  font-size: 2.2rem;
+  color: #8ac732;
+}
+.name-chat-icon-exit button {
+  border: none;
+}
+.chat-icon-exit {
+  font-size: 2.4rem;
+}
+/**/
+.all-communication {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2.4rem;
+}
+.icon-chat-text,
+.icon-send,
+button {
+  border: none;
+  padding: 0;
+}
+/**/
+.icon-to-text {
+  font-size: 2.4rem;
+}
+.icon-chat-text {
+  margin-right: 1.9rem;
+  display: flex;
+  justify-content: center;
+}
+/**/
+
+.text-speak input {
+  padding: 8px 0px 8px 8px;
+  border-radius: 8px;
+}
+/**/
+.send-btn {
+  font-size: 2.4rem;
+  color: #8ac732;
+  margin-left: 8px;
+}

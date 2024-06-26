@@ -130,6 +130,7 @@ label {
   font-size: 1.6rem;
   color: black;
 }
+
 /*color*/
 .color,
 .size {
@@ -554,4 +555,8 @@ label {
   .title-filters {
     padding: 5.5px 5.8rem 1rem 1.8rem;
   }
+}
+
+.hidden {
+  display: none;
 }

@@ -28,6 +28,10 @@
 .collection-button .button {
   margin: 0 5px;
 }
+.button--white:hover {
+  background-color: gray;
+  color: white;
+}
 
 .collection-img {
   margin-left: 7rem;
@@ -174,6 +178,10 @@
   color: #101110;
   padding: 10px 16px;
   display: block;
+}
+.seller-types__list a:hover {
+  background-color: #8ac732;
+  color: white;
 }
 
 .seller-types__list a.active {

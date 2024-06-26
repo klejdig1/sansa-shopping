@@ -42,13 +42,13 @@
               >
             </li>
             <li>
-              <a class="main-nav-link" href="#"
+              <a class="main-nav-link" href="./product-page.html"
                 ><span class="">Product</span></a
               >
             </li>
             <li><a class="main-nav-link" href="#">Blog</a></li>
-            <li><a class="main-nav-link" href="#">About Us</a></li>
-            <li><a class="main-nav-link" href="#">Contact Us</a></li>
+            <li><a class="main-nav-link" href="#footer">About Us</a></li>
+            <li><a class="main-nav-link" href="#footer">Contact Us</a></li>
           </ul>
         </nav>
 
@@ -85,7 +85,7 @@
           <div class="filters-box">
             <div class="title-filters">Filters</div>
             <div class="filters-icon">
-              <a href=""><i class="fa-solid fa-angles-left filters-left-icon"></i></a>
+              <a href=""><i class="fa-solid fa-angles-left filters-left-icon hidden"></i></a>
             </div>
 
             <div class="filters-items">
@@ -97,10 +97,10 @@
                   ></ion-icon>
                   <p class="text-filters">Color</p>
                 </div>
-                <a href="">
+                <a href="" class="toggle-filter">
                   <ion-icon
                     class="icon-up-filters"
-                    name="chevron-up-outline"
+                    name="chevron-down-outline"
                   ></ion-icon
                 ></a>
               </div>
@@ -117,10 +117,10 @@
                   ></ion-icon>
                   <p class="text-filters">Color</p>
                 </div>
-                <a href="">
+                <a href="" class="toggle-filter" >
                   <ion-icon
-                    class="icon-up-filters"
-                    name="chevron-up-outline"
+                          class="icon-up-filters"
+                          name="chevron-down-outline"
                   ></ion-icon
                 ></a>
               </div>
@@ -138,10 +138,10 @@
                   <i class="fa-regular fa-dollar-sign icon-filters"></i>
                   <p class="text-filters">Price Range</p>
                 </div>
-                <a href="">
+                <a href="" class="toggle-filter">
                   <ion-icon
-                    class="icon-up-filters"
-                    name="chevron-up-outline"
+                          class="icon-up-filters"
+                          name="chevron-down-outline"
                   ></ion-icon
                 ></a>
               </div>
@@ -169,10 +169,10 @@
                   ></ion-icon>
                   <p class="text-filters">Material</p>
                 </div>
-                <a href="">
+                <a href="" class="toggle-filter">
                   <ion-icon
-                    class="icon-up-filters"
-                    name="chevron-up-outline"
+                          class="icon-up-filters"
+                          name="chevron-down-outline"
                   ></ion-icon
                 ></a>
               </div>
@@ -191,10 +191,10 @@
                   <ion-icon class="icon-filters" name="star"></ion-icon>
                   <p class="text-filters">Rating</p>
                 </div>
-                <a href="">
+                <a href="" class="toggle-filter">
                   <ion-icon
-                    class="icon-up-filters"
-                    name="chevron-up-outline"
+                          class="icon-up-filters"
+                          name="chevron-down-outline"
                   ></ion-icon
                 ></a>
               </div>
@@ -268,10 +268,10 @@
                   <ion-icon class="icon-filters" name="star"></ion-icon>
                   <p class="text-filters">Brand</p>
                 </div>
-                <a href="">
+                <a href="" class="toggle-filter">
                   <ion-icon
-                    class="icon-up-filters"
-                    name="chevron-up-outline"
+                          class="icon-up-filters"
+                          name="chevron-down-outline"
                   ></ion-icon
                 ></a>
               </div>
@@ -589,7 +589,7 @@
       </div>
     </main>
 
-    <footer class="footer">
+    <footer id="footer" class="footer">
       <div class="container">
         <div class="footer-element">
           <div class="footer-sell">
@@ -604,26 +604,41 @@
             <h2 class="title-footer">Connects</h2>
             <div class="footer-connect-component">
               <div class="foot-connect-element">
-                <img class="footer-icon" src="img/brand-facebook.png" alt="" />
-                <p class="foot-icon-text">facebook</p>
+                <a href="https://www.facebook.com/" class="foot-icon-text">
+                  <img
+                          class="footer-icon"
+                          src="img/brand-facebook.png"
+                          alt=""
+                  />
+                  facebook</a
+                >
               </div>
             </div>
             <div class="footer-connect-component">
               <div class="foot-connect-element">
-                <img class="footer-icon" src="img/Vector.png" alt="" />
-                <p class="foot-icon-text">Instagram</p>
+                <a href="https://www.instagram.com/" target="_blank" class="foot-icon-text">
+                  <img class="footer-icon" src="img/Vector.png" alt="" />
+                  Instagram</a
+                >
               </div>
             </div>
             <div class="footer-connect-component">
               <div class="foot-connect-element">
-                <img class="footer-icon" src="img/Vector%20(1).png" alt="" />
-                <p class="foot-icon-text">LinkedIn</p>
+                <a href="https://www.linkedin.com/home" target="_blank"  class="foot-icon-text">
+                  <img class="footer-icon" src="img/Vector%20(1).png" alt="" />
+                  LinkedIn</a
+                >
               </div>
             </div>
             <div class="footer-connect-component">
               <div class="foot-connect-element">
-                <img class="footer-icon" src="img/Vector%20(2).png" alt="" />
-                <p class="foot-icon-text">X</p>
+                <a
+                        href="https://www.google.com/search?q=x" target="_blank"
+                        class="foot-icon-text"
+                >
+                  <img class="footer-icon" src="img/Vector%20(2).png" alt="" />
+                  X</a
+                >
               </div>
             </div>
           </div>
