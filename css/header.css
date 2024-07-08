@@ -64,6 +64,22 @@
   justify-content: center;
   z-index: 1;
 }
+
+#liked_items {
+  font-size: 1.2rem;
+  color: white;
+  right: 72px;
+  top: -14px;
+  position: absolute;
+  background-color: red;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
 .btn-mobile-nav {
   display: none;
 }
